@@ -1,0 +1,30 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
+  <title>Garage Pi</title>
+
+  <link rel="stylesheet" href="/css/style.css"></link>
+</head>
+<body>
+
+<header>
+  <h1>Garage Pi</h1>
+</header>
+
+<div class="controls">
+  <div id="door" class="off"><span class="state">Open</span> Garage Door</div>
+  <div id="interior" class="off">Turn <span class="state">On</span> Interior Lights</div>
+  <div id="exterior" class="off">Turn <span class="state">On</span> Security Lights</div>
+  <div id="music" class="off">Turn <span class="state">On</span> Music</div>
+</div>
+
+<footer>
+  <span>No Rights Reserved, 2016 &mdash; <a href="mailto:jacob.roufa@gmail.com">Jacob M. Roufa</a></span>
+</footer>
+
+<script src="/js/socket.io.js"></script>
+<script src="/js/garage.js"></script>
+
+</body>
+</html>
